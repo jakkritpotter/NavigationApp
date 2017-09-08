@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.potter.a5n1p3r.navigationapp.SplashActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+        <ImageView
+            android:src="@drawable/screen"
+            android:layout_gravity="center"
+            android:layout_width="400dp"
+            android:layout_height="470dp"
+            android:layout_weight="1.12"
+            android:id="@+id/img_splash" />
+    </LinearLayout>
+</RelativeLayout>

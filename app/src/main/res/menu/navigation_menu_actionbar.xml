@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!--mlns:app="http://schemas.android.com/apk/res-auto"
+    app:showAsAction="ifRoom"-->
+
+    <item android:id="@+id/nav_botany"
+        android:icon="@mipmap/ic_spa_black_48dp"
+        app:showAsAction="always"
+        android:title="พรรณไม้" />
+
+    <item android:id="@+id/nav_map"
+        android:icon="@mipmap/ic_map_black_48dp"
+        app:showAsAction="always"
+        android:title="แผนที่"/>
+
+    <item android:id="@+id/nav_ar"
+        android:icon="@mipmap/ic_center_focus_strong_black_48dp"
+        app:showAsAction="always"
+        android:title="AR"/>
+
+    <item android:id="@+id/nav_qr"
+        android:icon="@mipmap/ic_select_all_black_48dp"
+        app:showAsAction="always"
+        android:title="QR"/>
+
+
+</menu>

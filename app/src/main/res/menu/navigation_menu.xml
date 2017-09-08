@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!--mlns:app="http://schemas.android.com/apk/res-auto"
+    app:showAsAction="ifRoom"-->
+
+    <item android:id="@+id/nav_botany"
+        android:icon="@mipmap/ic_spa_black_48dp"
+        android:title="พรรณไม้" />
+    <item android:id="@+id/nav_map"
+        android:icon="@mipmap/ic_map_black_48dp"
+        android:title="แผนที่"/>
+
+    <item android:id="@+id/nav_ar"
+        android:icon="@mipmap/ic_center_focus_strong_black_48dp"
+        android:title="AR"/>
+
+    <item android:id="@+id/nav_qr"
+        android:icon="@mipmap/ic_select_all_black_48dp"
+        android:title="QR"/>
+
+    <item android:id="@+id/nav_manage"
+        android:icon="@mipmap/ic_border_color_black_48dp"
+        android:title="จัดการพรรณไม้"/>
+
+    <item android:id="@+id/nav_favorit"
+        android:icon="@mipmap/ic_favorite_black_48dp"
+        android:title="พรรณไม้ที่ชื่นชอบ"/>
+
+
+</menu>
